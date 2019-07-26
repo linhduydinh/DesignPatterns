@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainofResponsibility", "ChainofResponsibility\ChainofResponsibility.csproj", "{E4B3B65C-1EB8-4651-AD2F-9B7676637291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{18AC44E3-971A-4294-950C-881CC48172FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{29A921C4-3ED9-4131-85AF-3CFFD4E48AE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4B3B65C-1EB8-4651-AD2F-9B7676637291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B3B65C-1EB8-4651-AD2F-9B7676637291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B3B65C-1EB8-4651-AD2F-9B7676637291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B3B65C-1EB8-4651-AD2F-9B7676637291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AC44E3-971A-4294-950C-881CC48172FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AC44E3-971A-4294-950C-881CC48172FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AC44E3-971A-4294-950C-881CC48172FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AC44E3-971A-4294-950C-881CC48172FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4B3B65C-1EB8-4651-AD2F-9B7676637291} = {29A921C4-3ED9-4131-85AF-3CFFD4E48AE7}
+		{18AC44E3-971A-4294-950C-881CC48172FC} = {29A921C4-3ED9-4131-85AF-3CFFD4E48AE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D562C2BB-A539-40AC-A23F-0B5CA39F5898}
+	EndGlobalSection
+EndGlobal
