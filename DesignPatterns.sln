@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{29A921C4-3ED9-4131-85AF-3CFFD4E48AE7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{0119DC59-5ADE-4063-B5E0-5738A7B37E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{449D0FDF-2204-45FA-B176-89A1EFB5ED35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{18AC44E3-971A-4294-950C-881CC48172FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18AC44E3-971A-4294-950C-881CC48172FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18AC44E3-971A-4294-950C-881CC48172FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449D0FDF-2204-45FA-B176-89A1EFB5ED35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449D0FDF-2204-45FA-B176-89A1EFB5ED35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449D0FDF-2204-45FA-B176-89A1EFB5ED35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449D0FDF-2204-45FA-B176-89A1EFB5ED35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E4B3B65C-1EB8-4651-AD2F-9B7676637291} = {29A921C4-3ED9-4131-85AF-3CFFD4E48AE7}
 		{18AC44E3-971A-4294-950C-881CC48172FC} = {29A921C4-3ED9-4131-85AF-3CFFD4E48AE7}
+		{449D0FDF-2204-45FA-B176-89A1EFB5ED35} = {0119DC59-5ADE-4063-B5E0-5738A7B37E12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D562C2BB-A539-40AC-A23F-0B5CA39F5898}
