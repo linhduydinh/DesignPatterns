@@ -10,11 +10,18 @@ namespace Factory
     {
         static void Main(string[] args)
         {
-            string type = Console.ReadLine();
+            string nyType = Console.ReadLine();
+            string chicagoType = Console.ReadLine();
 
 
             NYPizzaStore nYPizzaStore = new NYPizzaStore();
-            nYPizzaStore.orderPizza(type);
+            ChicagoPizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
+
+            var pizza = nYPizzaStore.orderPizza(nyType);
+            Console.WriteLine("Ethan ordered a " + pizza.getName() + "\n");
+
+            pizza =  chicagoPizzaStore.orderPizza(chicagoType);
+            Console.WriteLine("Ethan ordered a " + pizza.getName() + "\n");
 
         }
 

@@ -11,13 +11,12 @@ namespace Factory
 
         public Pizza orderPizza(String type)
         {
-            Pizza pizza = null;
-            createPizza(type);
+            Pizza pizza = createPizza(type);
 
-            //pizza.prepare();
-            //pizza.bake();
-            //pizza.cut();
-            //pizza.box();
+            pizza.prepare();
+            pizza.bake();
+            pizza.cut();
+            pizza.box();
 
             return pizza;
         }

@@ -43,20 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CheesePizza.cs" />
-    <Compile Include="ChicagoCheesePizza.cs" />
-    <Compile Include="ChicagoCreekPizza.cs" />
-    <Compile Include="ChicagoPepperoniPizza.cs" />
-    <Compile Include="ChicagoPizzaStore.cs" />
-    <Compile Include="CreekPizza.cs" />
-    <Compile Include="NYCheesePizza.cs" />
-    <Compile Include="NYCreekPizza.cs" />
-    <Compile Include="NYPepperoniPizza.cs" />
-    <Compile Include="NYPizzaStore.cs" />
-    <Compile Include="PepperoniPizza.cs" />
-    <Compile Include="Pizza.cs" />
-    <Compile Include="PizzaFactory.cs" />
-    <Compile Include="PizzaStore.cs" />
+    <Compile Include="Pizza\CheesePizza.cs" />
+    <Compile Include="Pizza\ChicagoCheesePizza.cs" />
+    <Compile Include="Pizza\ChicagoCreekPizza.cs" />
+    <Compile Include="Pizza\ChicagoPepperoniPizza.cs" />
+    <Compile Include="Pizza\ChicagoPizzaStore.cs" />
+    <Compile Include="Pizza\CreekPizza.cs" />
+    <Compile Include="Pizza\NYCheesePizza.cs" />
+    <Compile Include="Pizza\NYCreekPizza.cs" />
+    <Compile Include="Pizza\NYPepperoniPizza.cs" />
+    <Compile Include="Pizza\NYPizzaStore.cs" />
+    <Compile Include="Pizza\PepperoniPizza.cs" />
+    <Compile Include="Pizza\Pizza.cs" />
+    <Compile Include="Pizza\PizzaFactory.cs" />
+    <Compile Include="Pizza\PizzaStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
