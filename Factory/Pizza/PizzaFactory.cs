@@ -12,18 +12,18 @@ namespace Factory
         {
             Pizza pizza = null;
 
-            if (type.Equals("cheese"))
-            {
-                pizza = new CheesePizza();
-            }
-            else if (type.Equals("creek"))
-            {
-                pizza = new CreekPizza();
-            }
-            else if (type.Equals("pepperoni"))
-            {
-                pizza = new PepperoniPizza();
-            }
+            //if (type.Equals("cheese"))
+            //{
+            //    pizza = new CheesePizza();
+            //}
+            //else if (type.Equals("creek"))
+            //{
+            //    pizza = new CreekPizza();
+            //}
+            //else if (type.Equals("pepperoni"))
+            //{
+            //    pizza = new PepperoniPizza();
+            //}
 
             return pizza;
         }

@@ -11,11 +11,12 @@ namespace Factory
         public override Pizza createPizza(string type)
         {
             Pizza pizza = null;
+            IPizzaIngredientFactory pizzaIngredientFactory = new NYPizzaIngredientFactory();
 
             if (type.Equals("cheese"))
             {
-                Console.WriteLine("NYCheesePizza");
-                pizza = new NYCheesePizza();
+                pizza = new CheesePizza(pizzaIngredientFactory);
+                pizza.setName("NY Style Cheese Pizza");
             }
             else if (type.Equals("creek"))
             {

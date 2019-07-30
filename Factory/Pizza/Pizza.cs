@@ -5,25 +5,26 @@ namespace Factory
 {
     public abstract class Pizza
     {
-        public string name, dough, sauce;
+        public string name;
+        public Dough dough;
+        public Sauce sauce;
+        public Cheese cheese;
+        public Pepperoni pepperoni;
+        public Clams clams;
+        public List<Veggies> veggies;
         public List<string> toppings = new List<string>();
         public Pizza()
         {
             name = "";
-            dough = "";
-            sauce = "";
+            dough = new Dough();
+            sauce = new Sauce();
+            cheese = new Cheese();
+            pepperoni = new Pepperoni();
+            clams = new Clams();
+            veggies = new List<Veggies>();
         }
 
-        public void prepare()
-        {
-            Console.WriteLine("Preparing " + name);
-            Console.WriteLine("Add dough" + dough);
-            Console.WriteLine("Add sauce " + sauce);
-            for (int i = 0; i < toppings.Count; i++)
-            {
-                Console.WriteLine(" " + toppings[i]);
-            }
-        }
+        public abstract void prepare();
 
         public void bake()
         {
@@ -43,6 +44,11 @@ namespace Factory
         public String getName()
         {
             return name;
+        }
+
+        public void setName(string name)
+        {
+            this.name = name;
         }
 
     }
